@@ -2,7 +2,10 @@
 /*  */ /* TODO:  */ /* REVIEW:  */ /* FIXME:  */
 /*  */ /* SECTION:  */ /* STUB:  */ /* ANCHOR:  */
 
-
+:root {
+    --c-title-line: rgba(15,15,15,0.3);
+    --c-box-line: rgba(15,15,15,0.4);
+}
 
 *, *::before, *::after {
     margin: 0; padding: 0;
@@ -86,7 +89,7 @@ input[type="submit"]
 	white-space: inherit;
     letter-spacing: inherit;
     display: inline-block;
-    /* border: none; */
+    border: none;
 }
 
 button,
