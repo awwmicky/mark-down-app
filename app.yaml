@@ -1,0 +1,11 @@
+runtime: nodejs
+env: flex
+handlers:
+# start path to ./
+  - url: /
+    static_files: build/index.html
+    upload: build/index.html
+# redirect all paths to ./
+  - url: /(.*)
+    static_files: build/\1
+    upload: build/(.*)

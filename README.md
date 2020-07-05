@@ -2,7 +2,7 @@
 
 Markdown App is a utility, using the markdown syntax to convert from input text to output preview.
 
-[Live Preview](https://link) |
+[Live Preview](https://the-markdown-app.appspot.com/) |
 [Source Code](./src)
 
 ## Installation
@@ -12,7 +12,7 @@ To install this project, follow these steps:
     - HTTPS: `https://github.com/awwmicky/markdown-app.git`
     - SSH: `git@github.com:awwmicky/markdown-app.git`
 2. **`npm install`**
-3. **`npm start`**
+3. **`npm run dev`**
 
 ## Technologies
 
