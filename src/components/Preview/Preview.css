@@ -31,27 +31,50 @@
 
 .md-preview .md-text blockquote {
     border-left: 5px solid #ccc;
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
+    /* border-left: 4px solid #dfe2e5; */
+    margin: 1em 0.625em;
+    padding: 0.0625em 0.625em;
 }
 
 .md-preview .md-text pre {
     background:rgba(27,31,35,.05);
     border: 1px solid #E1E1E1;
     border-radius: 5px;
-    padding: .2rem .5rem;
+    line-height: 1.5;
+    /* padding: 0.25em 0.5em; */
+    padding: 1em;
 }
 
 .md-preview .md-text p code {
     background:rgba(27,31,35,.05);
     border: 1px solid #E1E1E1;
     border-radius: 6px;
-    padding: .2em .4em;
+    padding: 0.2em 0.4em;
+}
+
+.md-preview .md-text table {
+    width: auto;
+}
+
+.md-preview .md-text tr {
+    border-top: 1px solid #c6cbd1;
+}
+
+.md-preview .md-text table th,
+.md-preview .md-text table td 
+{
+    border: 1px solid #dfe2e5;
+    text-align: initial;
+    padding: 0.375em 0.8125em;
+}
+
+.md-preview .md-text table tbody tr:nth-child(even) {
+    background: #dfe2e5;
 }
 
 .md-preview .md-text hr {
     border: none;
     background-color: #e1e4e8;
-    height: 0.25em;
-    margin: 24px 0;
+    height: 4px;
+    margin: 1.5em 0;
 }
