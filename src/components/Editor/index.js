@@ -20,6 +20,7 @@ export default function Editor () {
         name="editor"
         className="md-text"
         spellCheck="false"
+        placeholder="# Hello World"
         onChange={ handleValue }
       ></textarea>
     </div>
